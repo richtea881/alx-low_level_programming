@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
+* main - Prints sizeof many var types
 *
-* Description: using the main function
-this* this program prints â€œProgramming is like building a multilingual puzzleâ€
-* Return: 0
+* Return: Always  0 (Success)
 */
 int main(void)
 {
