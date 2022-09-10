@@ -1,18 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
+ * main - print if the number is postive, zero, or negative
  *
- * Return: Always 0 (Succcess)
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 int main(void)
 {
-	int d;
+int n;
 
-	for (d = '0' ; d <= ; d++)
-		putchar(d);
-	putchar('\n');
-
-	return (0);
+for (n = '0'; n <= '9'; n++)
+{
+	putchar(n);
+}
+putchar('\n');
+return (0);
 }
