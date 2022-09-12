@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - print all possible different combinations of two digits
+ *
+ * Description: using the main function
+ * this program prints "comb4"
+ * Return: 0
+ */
 int main(void)
 {
 	int i;
