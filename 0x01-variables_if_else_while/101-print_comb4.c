@@ -24,7 +24,7 @@ int main(void)
 				if (e != i && e != g && i != g && e < i && i < g)
 				{	
 					putchar(e);
-					putchar(e);
+					putchar(i);
 					putchar(g);
 					if (i == 56 && e == 55 && g == 57)
 					{
