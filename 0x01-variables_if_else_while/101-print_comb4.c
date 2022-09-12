@@ -3,7 +3,8 @@
 /**
  * main - Prints numbers between 012 to 789.
  *
- * Description: This program prints "All possible different colors of three digits"
+ * Description: using the main function
+ * This program prints 
  * Return: Always 0 (Succes)
  */
 int main(void)
