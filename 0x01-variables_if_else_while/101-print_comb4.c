@@ -4,7 +4,7 @@
  * main - Prints numbers between 012 to 789.
  *
  * Description: using the main function
- * This program prints 
+ * This program prints
  * Return: Always 0 (Succes)
  */
 int main(void)
