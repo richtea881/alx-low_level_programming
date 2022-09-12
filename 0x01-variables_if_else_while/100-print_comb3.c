@@ -10,7 +10,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		whille (j < 10)
+		while (j < 10)
 		{
 			if (j > i)
 			{
