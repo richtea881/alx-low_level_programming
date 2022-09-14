@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print _sign - function to check for a sign of a number
+ * print_sign - function to check for a sign of a number
  * @c: is the int that will use for the arguement of the function
  * Return: 0
  */
-int print_sign(int a)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
