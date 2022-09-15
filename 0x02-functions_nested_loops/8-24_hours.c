@@ -23,7 +23,7 @@ while (minutes <= 59)
 	_putchar(':');
 	_putchar(minutes / 10 + '0');
 	_putchar(mins_remainder + '0');
-	inutes++;
+	minutes++;
 	_putchar('\n');
 }
 	hours++;
