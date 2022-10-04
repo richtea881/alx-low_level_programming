@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  * create_array - prints the size of an array of chars.
- *   * @size: size of the array.
- *    * @c: character variable
- *     *
- *      * Return: NULL
- *      */
+ *create_array - prints the size of an array of chars.
+ *@size: size of the array.
+ *@c: character variable
+ *
+ *Return: NULL
+ */
 
 char *create_array(unsigned int size, char c)
 {
