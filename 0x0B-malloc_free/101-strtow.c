@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- *ch_free_grid - funtion to free a 2 dimensional array.
- *@grid: multidimensional array of char.
- *@height: height of the array.
+ * ch_free_grid - funtion to free a 2 dimensional array.
+ * @grid: multidimensional array of char.
+ * @height: height of the array.
  *
- *Return: no return
+ * Return: no return
  */
 
 void ch_free_grid(char **grid, unsigned int height)
@@ -22,10 +22,10 @@ void ch_free_grid(char **grid, unsigned int height)
 }
 
 /**
- *strtow - splits a string into words.
- *@str: string.
+ * strtow - splits a string into words.
+ * @str: string.
  *
- *Return: pointer of an array of integers
+ * Return: pointer of an array of integers
  */
 
 char **strtow(char *str)
