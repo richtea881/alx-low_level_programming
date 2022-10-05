@@ -26,34 +26,24 @@ char *argstostr(int ac, char **av)
 	c++;
 	c++;
 	}
-	
 	pout = malloc((c + 1) * sizeof(char));
-
 	if (pout == NULL)
 	{
 		free(pout);
 		return (NULL);
 	}
-
 	for (i = j = ia = 0; ia < c; j++, ia++)
-	
 	{
 	if (av[i][j] == '\0')
-	
 	{
 		pout[ia] = '\n';
-		
 		i++;
-		
 		ia++;
-		
 		j = 0;
 	}
-
 	if (ia < c - 1)
 	pout[ia] = av[i][j];
 	}
 	pout[ia] = '\0';
-	
 	return (pout);
 }
