@@ -2,29 +2,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  * *str_concat - function that concatenates two strings
- *   * @s1: pointer char variable
- *    * @s2: pointer char variable
- *     * Return: NULL
- *      */
+ * str_concat - function that concatenates two strings
+ * @s1: pointer char variable
+ * @s2: pointer char variable
+ * Return: NULL
+ */
 char *str_concat(char *s1, char *s2)
 {
-		int a, b, c, d, total;
-			int count1 = 0;
-				int count2 = 0;
-					char *ptr;
+	int a, b, c, d, total;
+	int count1 = 0;
+	int count2 = 0;
+	char *ptr;
 
-						if (s1 == NULL)
-								{
-											s1 = "";
-												}
-							if (s2 == NULL)
-									{
-												s2 = "";
-													}
-								for (a = 0; s1[a] != '\0'; a++)
-										{
-													count1 = count1 + 1;
+	if (s1 == NULL)
+		{
+		s1 = "";
+		}
+		if (s2 == NULL)
+		{
+		s2 = "";
+		}
+		for (a = 0; s1[a] != '\0'; a++)
+		{
+		count1 = count1 + 1;
 														}
 									for (b = 0; s2[b] != '\0'; b++)
 											{
