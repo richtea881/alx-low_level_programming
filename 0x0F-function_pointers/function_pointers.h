@@ -3,7 +3,7 @@
 
 /*
  * File: function_pointers.h
- * Auth: Olayeye Ayomide
+ * Auth: Odisi Anthony
  * Desc: Header file containing prototypes for all functions
  * used in the 0x0F-function_pointers directory.
  */
