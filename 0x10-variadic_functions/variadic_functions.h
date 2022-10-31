@@ -2,7 +2,7 @@
 #define VARIADIC_FUNCTIONS_H
 /**
  * variadic_functions - stores all prototype
- * AUTH: Olayeye Ayomide
+ * AUTH: Odisi Anthony
  * Desc: 0x10. C - Variadic functions
 */
 #include <stdarg.h>
